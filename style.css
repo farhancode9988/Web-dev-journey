@@ -1,0 +1,85 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+
+header {
+    background-color: grey;
+    margin: 0%;
+    padding: 20px 20px 20px;
+    border-radius: 0px 0px 10px 10px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.name {
+    font-size: 2em;
+    font-weight: bold;
+}
+.role {
+    font-size: 1.2em;
+    color: #555;
+}
+img{
+    
+    width:250px;
+    height:250px;
+    border-radius: 50%;
+}
+
+
+
+
+#edu{
+    background-color:cornsilk;
+    margin-left: 5px;
+    padding: 10px;
+    border-radius:10px;
+    width: 28%;
+    height: 35%;
+    position:absolute;
+}
+
+#about-me{
+    background-color: lightblue;
+    margin-top: 0%;
+    margin-left: 0%;
+    padding: 0px 5px 20px 20px;
+    border-radius:10px;
+    width: 35%;
+    height: 35%;
+    position:absolute;
+    left: 32%;
+    text-align: left;
+}
+
+#about-me h2{
+    text-align: center;
+    
+}
+
+#skills{
+    background-color: lightgreen;
+    margin-top: 0%;
+    margin-right: 5px;
+    padding: 10px 10px 10px 10px;
+    border-radius:10px;
+    width: 27%;
+    height: 35%;
+    position:absolute;
+    left:71%;
+}
+footer{
+    background-color:lightgreen;
+    margin-top: 20%;
+    padding: 10px 10px 40px 10px;
+    border-radius:10px 10px 0px 0px;
+    text-align: center;
+}
+footer a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;}
+

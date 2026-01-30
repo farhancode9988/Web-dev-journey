@@ -1,0 +1,112 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url("/pics/pawel-czerwinski-eimEio8958o-unsplash.jpg");
+    background-size: cover;
+ }
+
+
+header {
+    background-color: none;
+    margin: 0%;
+    padding: 20px 20px 20px;
+    border-radius: 0px 0px 10px 10px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.name {
+    font-size: 2em;
+    font-weight: bold;
+}
+.role {
+    font-size: 1.2em;
+    color: #555;
+    text-shadow:black 1px 1px 2px;
+}
+
+img{
+    
+    width:250px;
+    height:250px;
+    border-radius: 50%;
+}
+
+#pic{
+    position:relative;
+    left:70px;
+}
+
+
+
+
+#edu{
+    background-color:grey;
+    margin-left: 5px;
+    padding: 10px;
+    border-radius:10px;
+    width: 28%;
+    height: 35%;
+    position:absolute;
+    top:310px;
+}
+
+#about-me{
+    background-color: lightgray;
+    padding: 0px 5px 20px 20px;
+    border-radius:10px;
+    width: 35%;
+    height: 35%;
+    position:absolute;
+    left: 32%;
+    top:310px;
+    text-align: left;
+}
+
+#about-me:hover{
+    background-color:chocolate; 
+    transition: all 1s ease-in;
+    cursor: pointer;
+    font-size: 17px;
+    transform:scale(1.5,1.5);
+    z-index: 1;
+
+}
+
+#about-me h2{
+    text-align: center;
+    
+}
+
+#skills{
+    background-color: grey;
+    margin-right: 5px;
+    padding: 10px 10px 10px 10px;
+    border-radius:10px;
+    width: 27%;
+    height: 35%;
+    position:absolute;
+    left:71%;
+    top:310px;
+}
+footer{
+    background-color:none;
+    margin-top: 20%;
+    padding: 10px 10px 40px 10px;
+    border-radius:10px 10px 0px 0px;
+    text-align: center;
+
+}
+footer a{
+    color: black;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+footer a img{
+    width:30px;
+    height:30px;
+    margin: 0px 10px 0px 10px;
+}
+

@@ -1,0 +1,75 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url("/pics/peter-thomas-PMO6SIGHh9A-unsplash.jpg");
+    background-size:cover;
+
+}
+
+#login{
+    background-image: url("/pics/peter-thomas-PMO6SIGHh9A-unsplash.jpg");
+    background-size: cover;
+    width :400px;
+    height:500px;
+    border-radius: 20px;
+    padding: 10px 10px 10px 0px;
+    position: absolute;
+    top:7%;
+    left:35%;
+}
+
+#login:hover{
+    box-shadow: 0 0 20px 5px white;
+    transition: all 1s ease-in;
+    transform: scale(1.1,1.1);
+
+}
+
+input{
+    background-color:black;
+    border: 1px white;
+    width: 80%;
+    margin-left: 40px;
+    height: 30px;
+}
+
+input:hover{
+    background-color:white;
+    transition: 0.5s;
+}
+
+h2{
+    text-align: center;
+    padding-top: 40px;
+    color: white;
+}
+
+#forget{
+    color: white;
+    margin-left: 250px;
+}
+
+button{
+    margin-left: 150px;
+    margin-top: 20px;
+    width: 100px;
+    height: 30px;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    border: 0px white;
+}
+
+p{
+    color: white;
+    display: inline-block;
+    border-radius: 10px;
+    padding-left: 125px;
+}
+
+#signup{
+    text-decoration: none;
+    color: white;
+    padding-left: 175px;
+
+}
